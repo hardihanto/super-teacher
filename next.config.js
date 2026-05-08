@@ -4,9 +4,6 @@ const nextConfig = {
   images: {
     domains: ['localhost', 'images.unsplash.com', 'picsum.photos'],
   },
-  experimental: {
-    serverComponentsExternalPackages: ['better-sqlite3'],
-  },
 }
 
 module.exports = nextConfig
